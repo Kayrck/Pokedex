@@ -24,15 +24,14 @@ Fetch API: Consumo de dados com implementação de camada de cache local.
 
 A arquitetura foi pensada para modularidade, manutenibilidade e escalabilidade:
 
-src/
-├── api/          # Serviços de comunicação com a PokeAPI + camada de cache
-├── components/   # Componentes reutilizáveis de UI
-├── context/      # Gestão de estado global (ex.: favoritos, filtros)
-├── pages/        # Páginas principais da aplicação (Home, Details)
-├── routes/       # Configuração centralizada das rotas
-├── types/        # Tipos e interfaces TypeScript
-└── assets/       # Imagens, ícones e mídias estáticas
-
+src/<br>
+├── api/ — Serviços de comunicação com a PokeAPI + camada de cache<br>
+├── components/ — Componentes reutilizáveis de UI<br>
+├── context/ — Gestão de estado global (ex.: favoritos, filtros)<br>
+├── pages/ — Páginas principais da aplicação (Home, Details)<br>
+├── routes/ — Configuração centralizada das rotas<br>
+├── types/ — Tipos e interfaces TypeScript<br>
+└── assets/ — Imagens, ícones e mídias estáticas
 
 <h2>🔍 Funcionalidades Principais</h2>
 
