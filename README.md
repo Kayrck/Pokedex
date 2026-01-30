@@ -19,7 +19,6 @@ Fetch API: Consumo de dados com implementação de camada de cache local.
 📁 Estrutura do Projeto
 A arquitetura foi pensada para modularidade, manutenibilidade e escalabilidade:
 
-Plaintext
 src/
  ├── api/        # Serviços e integração com a PokeAPI (inclui camada de cache)
  ├── components/ # Componentes reutilizáveis de UI
@@ -28,6 +27,7 @@ src/
  ├── routes/     # Definição centralizada das rotas
  ├── types/      # Tipos e interfaces TypeScript
  └── assets/     # Imagens, ícones e mídias estáticas
+
 🔍 Funcionalidades Principais
 ✅ Listagem dos 151 Pokémon da primeira geração.
 
