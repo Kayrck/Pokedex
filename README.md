@@ -5,6 +5,14 @@ Este projeto consiste em uma Pokédex web moderna, construída para oferecer uma
 O objetivo central é entregar uma solução escalável, bem organizada e com boas práticas de desenvolvimento utilizando React, TypeScript e Tailwind CSS.
 
 
+<h2>🌐 Deploy </h2>
+
+A aplicação está disponível em produção no Render:
+
+🔗 **https://pokedex-sl50.onrender.com**
+
+
+
 <h2>⚙️ Tecnologias Utilizadas</h2>
 
 React (Vite + TypeScript): Performance otimizada e DX (Developer Experience) moderna.
