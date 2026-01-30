@@ -25,13 +25,13 @@ Fetch API: Consumo de dados com implementação de camada de cache local.
 A arquitetura foi pensada para modularidade, manutenibilidade e escalabilidade:
 
 src/
- ├── api/        # Serviços e integração com a PokeAPI (inclui camada de cache)
- ├── components/ # Componentes reutilizáveis de UI
- ├── context/    # Gerenciamento global de estado (ex.: favoritos, filtros)
- ├── pages/      # Páginas principais (Home, Details)
- ├── routes/     # Definição centralizada das rotas
- ├── types/      # Tipos e interfaces TypeScript
- └── assets/     # Imagens, ícones e mídias estáticas
+├── api/          # Serviços de comunicação com a PokeAPI + camada de cache
+├── components/   # Componentes reutilizáveis de UI
+├── context/      # Gestão de estado global (ex.: favoritos, filtros)
+├── pages/        # Páginas principais da aplicação (Home, Details)
+├── routes/       # Configuração centralizada das rotas
+├── types/        # Tipos e interfaces TypeScript
+└── assets/       # Imagens, ícones e mídias estáticas
 
 
 <h2>🔍 Funcionalidades Principais</h2>
@@ -51,7 +51,7 @@ src/
 
 <h2>🚀 Como Executar Localmente</h2>
 
-1. Instalar Dependências
+<h3>1. Instalar Dependências</h3>
 Certifique-se de estar utilizando o Node.js (versão LTS).
 
 Bash
